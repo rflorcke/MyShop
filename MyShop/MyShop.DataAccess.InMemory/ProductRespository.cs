@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Runtime.Caching;
 using MyShop.Core.Models;
 
+// NO LONGER NEEDED BECAUSE OF "InMemoryRepository" GENERIC IMPLEMENTATION
 namespace MyShop.DataAccess.InMemory
 {
     public class ProductRespository
