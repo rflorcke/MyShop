@@ -10,7 +10,7 @@ namespace MyShop.Core.Models
 {
     public class Product : BaseEntity
     {
-        [StringLength(20)]
+        [StringLength(50)]
         [DisplayName("Product Name")]
         public string Name { get; set; }
 
